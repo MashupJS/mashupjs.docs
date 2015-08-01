@@ -30,7 +30,7 @@ Right click the solution and select **Add -> New Project**.
 
 Select **ASP.NET Web Application** and give your project a **name**, then press **OK**.
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/1.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/1.PNG)
 
 
 The template page loads.
@@ -45,7 +45,7 @@ Verify **Host in the cloud** is unchecked.
 
 Press **OK**.
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/6.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/6.PNG)
 
 Using the selected template and settings, Visual Studio creates the new Web API.
 
@@ -54,7 +54,7 @@ CORS support is already built into the Web Api.  What we need to do is add heade
 
 > NOTE: I've had inconsistent experiences with WebApi and CORS.  Make sure you've installed the NuGet package giving you **Microsoft.AspNet.WebApi.Cors**.
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/12.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/12.PNG)
 
 > Add the code, below, to your Global.asax in the public class Global.
 
@@ -221,23 +221,23 @@ Right click on the project we just created in the Solution Explorer and select *
 
 Select the **Web** tab then change the value of Specific Page to "Help".
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/8.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/8.PNG)
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/9.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/9.PNG)
 
 ###Call the WebApi
 
 Set the new WebApi as the startup project and press the Run button in Visual Studio.
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/10.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/10.PNG)
 
 Enter **localhost:49261/api/Items**
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/11.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/11.PNG)
 
 You might have a jumbled mess of JSON on your screen.  To clean that up you'll want to use some kind of browser plug-in.  What I'm using here is JSONView.
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/5.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/5.PNG)
 
 ##One more thing
 This will likely go away as templates improve and WebApi matures but for now, as of Nov 2014, you need up update your WebApi 2.2 NuGet package.
@@ -246,5 +246,5 @@ The problem is Attribute Routing and CORS don't get along well until you install
 
 Once this is installed you should be able to access WebApi from your AngularJS client even when it's not part of the Origin domain.  You can build WebApi(s) for your enterprise and not specifically for one client.  Also, you'll find this useful when building hybrid mobile applications whose *origin* will never be the same as we WebApi.
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupApi/13.PNG)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupApi/13.PNG)
 

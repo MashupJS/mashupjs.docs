@@ -139,7 +139,7 @@ var getAppSession = function () {
 
 ```
 
-![enter image description here](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/apps/router%20auth.png?raw=true)
+![enter image description here](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/apps/router%20auth.png?raw=true)
 
 
 ##JavaScript Loading Options
@@ -164,5 +164,5 @@ The About page also displays what is currently cached for fast data retrieval.
 ##Login Page
 The login page demonstrates a basic way to get and store authentication information as a user session.
 
-![enter image description here](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/apps/login.png?raw=true)
+![enter image description here](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/apps/login.png?raw=true)
 

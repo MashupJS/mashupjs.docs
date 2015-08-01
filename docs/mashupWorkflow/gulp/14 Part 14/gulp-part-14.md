@@ -22,7 +22,7 @@ tags:
 The **Mashup** is a learning tool that serves as a seed project for line-of-business applications.  It's goal is a shortened *learning curve* for building modern business applications and the reduction of *technical debt*.
 <br>
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)
@@ -136,14 +136,14 @@ gulp.task('default', function () {
 ```gulp```
 
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/14%20Part%2014/1.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/14%20Part%2014/1.png)
 <br>
 
 If you modify any files the Watch is configured to watch, then you’ll see tasks run.
 <br>
 Here is what happens after changing the index.controller.js file.
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/14%20Part%2014/2.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/14%20Part%2014/2.png)
 <br>
 
 First the annotate task runs against the changed JavaScript code.  Then the file is copied to the `dist` folder and minified by the `uglifyalljs` task.  Finally the JavaScript code is linted with the `jshint` task.
@@ -163,7 +163,7 @@ A completed tutorial can be found here:
 
 <br>
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)

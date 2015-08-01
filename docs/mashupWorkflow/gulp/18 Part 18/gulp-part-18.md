@@ -22,7 +22,7 @@ tags:
 The **Mashup** is a learning tool that serves as a seed project for line-of-business applications.  It's goal is a shortened *learning curve* for building modern business applications and the reduction of *technical debt*.
 <br>
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)
@@ -54,7 +54,7 @@ PowerShell is pre-installed on Windows 8 or newer installations.
 From Start: *Search programs and files* type “powershell”.  Select “`powershell.exe`”.
 <br>
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/18%20Part%2018/1.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/18%20Part%2018/1.png)
 
 <br>
 
@@ -108,7 +108,7 @@ Display in json which includes current, wanted, latest version numbers
 ```npm outdated –-json -–depth=0```
 <br>
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/18%20Part%2018/2.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/18%20Part%2018/2.png)
 
 <br>
 
@@ -131,7 +131,7 @@ Then execute the following command to see what packages can be updated.
 ```npm-check-updates```
 <br>
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/18%20Part%2018/3.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/18%20Part%2018/3.png)
 
 <br>
 
@@ -163,7 +163,7 @@ A completed tutorial can be found here:
 
 <br>
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)

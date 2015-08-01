@@ -22,7 +22,7 @@ tags:
 The **Mashup** is a learning tool that serves as a seed project for line-of-business applications.  It's goal is a shortened *learning curve* for building modern business applications and the reduction of *technical debt*.
 <br>
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)
@@ -150,7 +150,7 @@ Reporters receive feedback from JSHint and format it into something human readab
 
 <br>
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/11%20Part%2011/1.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/11%20Part%2011/1.png)
 
 <br>
 
@@ -162,7 +162,7 @@ https://github.com/ivan-vesely/gulp-jshint-html-reporter
 <br>
 There isn’t much in the way of documentation but the source code is available and you have access to the author here. 
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/11%20Part%2011/2.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/11%20Part%2011/2.png)
 <br>
 ####Options list
 http://jshint.com/docs/options/
@@ -174,7 +174,7 @@ https://www.npmjs.com/package/gulp-jshint
 ```gulp```
 
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/11%20Part%2011/3.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/11%20Part%2011/3.png)
 <br>
 
 >####Tip
@@ -195,7 +195,7 @@ A completed tutorial can be found here:
 
 <br>
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)

@@ -10,6 +10,6 @@ The *separation of responsibilities* provided by the MVVM (ModelView-ViewModel) 
 
 Create your own index.html file and menu system then post it back for others to use. 
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/1.PNG"/>
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/1.PNG"/>
 
 

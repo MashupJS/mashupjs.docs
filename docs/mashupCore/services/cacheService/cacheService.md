@@ -27,7 +27,7 @@ I’m still learning Angular and JavaScript, so please feel free to comment belo
 ###https://github.com/MashupJS/MashupJS
 
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/cacheImage.jpg" width="200px" height="150px" />
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/cacheImage.jpg" width="200px" height="150px" />
 
 ## Introduction
 
@@ -162,7 +162,7 @@ $scope.example2items_click = function() {
 ```
 
 ####The getData() process
-![The getData() process](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/cacheService%20-%20getData.png)
+![The getData() process](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/cacheService%20-%20getData.png)
 
 
 ###getData api
@@ -203,7 +203,7 @@ The name of the heart beat used in logs.
 If nothing is provided then the *webApiUrl* is used.
 
 ####falsy but no heartBeatUrl provided
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/10.PNG"/>
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/10.PNG"/>
 
 This means you did not provide a value for **useHeartBeatConvention**, which the system interprets as *falsy* or you explicitly passed in *false* but did not follow up and provide the **heartBeatUrl**.  
 
@@ -236,11 +236,11 @@ In this example, you’ll notice the log message “SELECT statement start” is
 Example: Here is sample code.
 
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/4.png"/>
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/4.png"/>
 
 Here is the console. Notice that the logs do not come in the order you might expect.
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/5.png"/>
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/5.png"/>
 
 **Tip: YDN-DB database name **
 Be careful when creating YDN-DB objects. You will not receive an error if you use a name for your object that was already created but you will be confused to find the data that you expected to be there doesn’t exist.
@@ -283,19 +283,19 @@ Select the “Resources” tab and you’ll see a list of all the available stor
 YDN-DB will use IndexedDB first, if available, before it uses lesser local database options.
 
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/6.png"/>
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/6.png"/>
 
 Expand IndexedDB and you’ll see a list of databases you have created for the web site you are currently on.
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/7.png"/>
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/7.png"/>
 
 Expand this further and you’ll see a list of data sources/tables you have created via the schema or dynamic schema.
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/8.png"/>
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/8.png"/>
 
 If you select a table, the data is retrieved and displayed in the right hand panel.
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/cacheService/9.png"/>
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/cacheService/9.png"/>
 
 ###Manipulating Cached Data
 Once data is retrieved and cached, you might still want to manipulate and filter the results further for your specific needs, i.e.,  you have a list of customers in cache but you need customer number 1,234’s data only.

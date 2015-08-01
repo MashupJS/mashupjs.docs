@@ -17,7 +17,7 @@ The **Mashup** is a learning tool that serves as a seed project for line-of-busi
 
 <br>
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)
@@ -65,7 +65,7 @@ A completed tutorial can be found here:
 
 <br>
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)

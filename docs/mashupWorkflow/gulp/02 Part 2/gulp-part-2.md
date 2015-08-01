@@ -21,7 +21,7 @@ tags:
 The **Mashup** is a learning tool that serves as a seed project for line-of-business applications.  It's goal is a shortened *learning curve* for building modern business applications and the reduction of *technical debt*.
 
 
- <img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
+ <img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/bookcoverimage.PNG" alt="Smiley face" height="100" width="100"> 
 
 This tutorial and more can be found in
 ####[Gulp - Quick guide to getting up and running today](http://www.amazon.com/Gulp-Quick-guide-getting-running-ebook/dp/B010NXMFF6/)
@@ -60,7 +60,7 @@ To create a package.json file, open a command prompt in the root of your client 
 <br>
 For this tutorial, open a command line to the Mashup.UI.Core folder.
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/02%20Part%202/1.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/02%20Part%202/1.png)
 <br>
 ####At the command-line type
     npm init
@@ -71,11 +71,11 @@ You will be prompted for several configuration options.  For the purposes of thi
 
 <br>
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/02%20Part%202/2.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/02%20Part%202/2.png)
 <br>
 And now your package.json is born.
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/02%20Part%202/3.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/02%20Part%202/3.png)
 <br>
 For more information about NPM packages
 https://docs.npmjs.com/files/package.json
@@ -108,7 +108,7 @@ Gulp must also be installed locally for your project.  The global install allows
 <br>
 If you’re new to NPM, then just know that a screen that looks like this is completely normal.
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/02%20Part%202/4.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/02%20Part%202/4.png)
 <br>
 
 ####TIP: Visual Studio Code
@@ -122,7 +122,7 @@ Right click the package.json file and open it with your favorite code editor and
 
 
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/02%20Part%202/5.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/02%20Part%202/5.png)
 <br>
 
 Package.json stores its information as JSON.  Notice the first several attributes.  These are the values we opted to provide, or, in my case, not provide. 
@@ -158,7 +158,7 @@ var gulp = require('gulp');
 
 <br>
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/02%20Part%202/6.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/02%20Part%202/6.png)
 <br>
 At this point you can execute Gulp from the command-line.  There are no tasks in the “default” task, but Gulp will run.
 <br>
@@ -166,7 +166,7 @@ At the command-line type “gulp” and press enter.
 
     gulp
 <br>
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupWorkflow/gulp/02%20Part%202/7.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/gulp/02%20Part%202/7.png)
 
 
 <br>

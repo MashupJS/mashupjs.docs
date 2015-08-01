@@ -52,14 +52,14 @@ Successful heartbeats are logged to the console but not to IndexedDB.
 The log is checked every two hours and any logs more than a week old are removed. 
 
 
-![enter image description here](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/detectService/detectService%20-%20Heartbeat%20Monitor.png)
+![enter image description here](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/detectService/detectService%20-%20Heartbeat%20Monitor.png)
 
 Every 2 hours the log is checked and any logs over 1 week old are removed. 
 
 ###Code Blue Monitor
 The Code Blue Monitor checks resources for connectivity much like the Heartbeat Monitor does but more frequently. The results, pass or fail, are recorded to the console window and IndexedDB.
 
-<img src="https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/services/detectService/detectService%20-%20CodeBlue%20Monitor.png" />
+<img src="https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/services/detectService/detectService%20-%20CodeBlue%20Monitor.png" />
 
 
 ###Battery level

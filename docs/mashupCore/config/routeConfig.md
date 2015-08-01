@@ -68,10 +68,10 @@ mashupApp.config(function ($routeProvider) {
 Here is the **Network** tab in Chrome during the first load of a module and the next image is during the second call for the same module.
 
 ####First load
-![](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/config/BeforeocLazyLoadCache.PNG)
+![](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/config/BeforeocLazyLoadCache.PNG)
 
 ####Second load
-![](https://raw.githubusercontent.com/MashupJS/MashupJS/master/docs/mashupCore/config/AfterocLazyLoadCache.PNG)
+![](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupCore/config/AfterocLazyLoadCache.PNG)
 
 >NOTE:  There is a bug in ocLazyLoad where you must tell it what modules you've already loaded.  ocLazyLoad 0.3.9 fixes this for everything except Angular Bootstrap which the mashup uses.
 >https://github.com/ocombe/ocLazyLoad/issues/71#issuecomment-61446335

@@ -155,7 +155,7 @@ WebApi project names should be:
 ####Syntax
 Use the **Controller As** syntax.
 
-[ControllerAs.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/ControllerAs.md)
+[ControllerAs.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/ControllerAs.md)
 
 
 ####Naming
@@ -172,12 +172,12 @@ myApp.page1Controller
 ##cacheService
 Learn all about the cacheService here: 
 
-[cacheService.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/services/cacheService/cacheService.md)
+[cacheService.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/services/cacheService/cacheService.md)
 
 
 Learn more about the detectService used by the cacheService.
 
-[detectService.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/services/detectService/detectService.md)
+[detectService.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/services/detectService/detectService.md)
 
 The cacheService is one of many caching options.  Use the cacheService when you need discrete control over how often an api resources are called and how long until a cache is considered stale.
 
@@ -266,29 +266,29 @@ This document explains how to set up Route Configuration in the Mashup and how t
 
 Lazy loading will become a feature of the new Angular 2.0 router which will be back ported to Angular 1.3.  It's not here yet but this approach will work nicely until it is.
 
-[routeConfig.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/config/routeConfig.md)
+[routeConfig.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/config/routeConfig.md)
 
 
 ##Logging
 ###logService
 The logService intercepts messages sent by $log and performs custom actions and can be used for instrumentation for all apps.
 
-[logService.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/services/logService/logService.md)
+[logService.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/services/logService/logService.md)
 
 ##Utilities
 ###utilityService
 The utilityService is a Facade of all the utilities you're Mashup application can use.  Using the utilityService  reduces then number of modules required for injection and simplifies your code.
 
-[utilityService.md](https://github.com/MashupJS/MashupJS/tree/master/docs/mashupCore/services/utilityService/utilityService.md)
+[utilityService.md](https://github.com/MashupJS/mashupjs.docs/tree/master/docs/mashupCore/services/utilityService/utilityService.md)
 
 ####utility_UtcDateService
 
-[utility_UtcDateService.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/services/utilityService/utility_UtcDateService.md)
+[utility_UtcDateService.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/services/utilityService/utility_UtcDateService.md)
 
 ##Index.html
 The index.html is swappable for whatever is needed.  
 
-[index.html.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/index.html.md)
+[index.html.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/index.html.md)
 
 #MashupJS WebApi
 
@@ -296,11 +296,11 @@ The index.html is swappable for whatever is needed.
 ##Creating a WebApi for the MashupJS
 How to create a WebApi for the MashupJS that supports CORS
 
-[WebApi-HowToCreateForMashup.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupApi/WebApi-HowToCreateForMashup.md)
+[WebApi-HowToCreateForMashup.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupApi/WebApi-HowToCreateForMashup.md)
 
 Explaining the problem with CORS
 
-[WebApi-Cors-Chrome.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupApi/WebApi-Cors-Chrome.md)
+[WebApi-Cors-Chrome.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupApi/WebApi-Cors-Chrome.md)
 
 ##HeartBeatController
 
@@ -343,7 +343,7 @@ Hence the name Mashup.Api.AuthADSP.
 `Auth + [active directory] + [stored procs]`
 
 TODO: Change this link when the api is moved.
-[Mashup.Api.AuthADSP.md](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupApi/Mashup.Api.AuthADSP/Mashup.Api.AuthADSP.md)
+[Mashup.Api.AuthADSP.md](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupApi/Mashup.Api.AuthADSP/Mashup.Api.AuthADSP.md)
 
 If we were to publish a Federated authentication service using Entity Framework then the name might be *Mashup.Api.AuthFedEF*.
 

@@ -30,7 +30,7 @@ Using Grunt/Gulp the mashup not only combines routes between multiple applicatio
 In the example below app1, app2, and mashup all have items for the mashup menu.
 
 
-![enter image description here](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/config/drop-in%20structure.png?raw=true)
+![enter image description here](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/config/drop-in%20structure.png?raw=true)
 
 
 MashupJS menu items are stored in a JSON file with the name “menu.json.txt”.
@@ -227,8 +227,8 @@ The menu.html uses a simple ng-repeater to build the menu and the menu item attr
 
 The menu is responsive.  You’ll likely replace this with a Bootstrap menu or some other menu of your choosing.
 
-![enter image description here](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/config/horizontalMenu.png?raw=true)
+![enter image description here](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/config/horizontalMenu.png?raw=true)
 
 
 
-![enter image description here](https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/config/verticalMenu.png?raw=true)
+![enter image description here](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/config/verticalMenu.png?raw=true)

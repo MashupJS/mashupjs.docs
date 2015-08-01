@@ -181,7 +181,7 @@ mashupApp.service('utility_LogHelper', function () {
 ```
 You might have noticed that this function is implemented in *utility_LogHelper*.  To reduce dependency injection into your module a number of utilities, like this, will be exposed by the *utility* module.
 
-This implementation is straight forward and described here: https://github.com/MashupJS/MashupJS/blob/master/docs/mashupCore/services/utilityService/utilityService.md
+This implementation is straight forward and described here: https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupCore/services/utilityService/utilityService.md
 
 2 . If you have any properties you'd like to add, do this next.
 ```

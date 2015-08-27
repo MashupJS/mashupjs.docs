@@ -90,7 +90,7 @@ menu.html
 
  - The menu.controller.js of the application hosting the mashups menu will read and use the new “menu.json.txt”.
 
-###menu.json date object
+###menu.json data object
 
 The menu.json data object is basic.  This example only contains two levels but there is no limit on the number of levels possible.
 

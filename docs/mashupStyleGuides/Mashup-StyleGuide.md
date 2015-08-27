@@ -6,7 +6,7 @@
 I would use these style guide for code reviews and as general learning tools.  The Mashup's style guide is to be appended to whatever style guide you subscribe to and offers guidance specific to the Mashup.
 
 ### Angular style guides
-[Google's Angular style guide](https://google-styleguide.googlecode.com/svn/trunk/angularjs-google-style.html)
+[Google's Angular style guide](https://google-styleguide.googlecode.com/svn/blob/master/angularjs-google-style.html)
 
 [John Papa's Angular style guide](https://github.com/johnpapa/angularjs-styleguide)
 

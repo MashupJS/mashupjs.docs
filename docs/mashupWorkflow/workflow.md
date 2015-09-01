@@ -16,10 +16,13 @@ The Mashup can be used to build multiple applications into a single composite ap
 
 3 Do your normal "new project" type work
 
-npm install
-bower install
+    npm install
+
+    bower install
 
 4 Execute your Gulp command.  Be sure to remove the `copyFromApps` task from Gulp.  You won't need this task if your application is totally self-contained.
+
+    Gulp
 
 
 ## Composite Application Workflow (Multi-team approach)

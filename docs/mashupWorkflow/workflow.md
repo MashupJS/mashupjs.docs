@@ -5,11 +5,11 @@ Here you can find tips on how your workflow might work.
 
 
 
-## Single Application Workflow
+## Single Application Workflow (Team approach)
 
 
 
-## Composite Application Workflow
+## Composite Application Workflow (Multi-team approach)
 
 
 
@@ -42,3 +42,15 @@ Here you can find tips on how your workflow might work.
 
 
 ## Using Source Control
+
+
+
+## Configure and Publish
+
+
+
+## Hybrid mobile applications
+
+
+
+## 

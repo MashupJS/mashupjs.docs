@@ -1,5 +1,5 @@
 #Workflow
-Here you can find tips on how your workflow might work.
+Here you'll find tips on how your workflow might work.
 
 ## Creating a new Mashup implementation
 

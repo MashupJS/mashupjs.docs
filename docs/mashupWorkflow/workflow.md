@@ -61,7 +61,23 @@ The Core is configured to pull from each application so when executing the `Mash
 
 ## Removing a Mashup appliation from your machine
 
+Removing the Mashup from your machine will likely be a common practice.  We are entering a world where it is common to build and destroy and rebuild.  Chances are you will create a mashup application more than once, until you are satisfied with your structure.
 
+Removing the Mashup should be straight forward and easy but with Windows file name length restrictures it becomes a challenge.  NPM modules often exceed the name length limitations in windows.  NPM is able to create files that validate this rule but you will be unable to delete them.
+
+There are NPM modules that will flatten the structure of the folders under node_modules but this does not fully address the problem.
+
+I use "Long Path Eraser Free -  www.entersrl.net" to delete the node_modules directory.
+
+Destroying/removing a Mashup application isn't' the only reason to delete the node_modules folder.  Once occassion you might wish to start another new application based on one you've already build.  I'f you simply copy your Mashup Core application to another directory and add your new application code, everything will work.  The problems is when you add your code to source control.  You have no way to distinguish between source control code and generated code.
+
+Creating a new project based on an existing one.
+
+1 Run the "Long Path Eraser Free" utility and remove the node_modules directory.
+2 Execute the feature of your source control systme that deletes all un-versioned code.
+3 Commit all your remaining code to source control.
+
+You're good to go.
 
 ## Using Gulp/Bower/NPM
 

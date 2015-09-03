@@ -36,7 +36,7 @@ One of the benefits of using the MashupJS as a seed project is it's set up for m
 
 The Core is configured to pull from each application so when executing the `Mashup.UI.Core` project you'll see `app1` and `app2` menu items.  Gulp executes tasks to build a single menu json and combines the routes.
 
-3 Execute yourGo to the root of the `Mashup.UI.Core` project where the `gulpfile.js` exists and execute the `gulp` command.
+3 Go to the root of the `Mashup.UI.Core` project where the `gulpfile.js` exists and execute the `gulp` command.
 
 
 ## Adding an application

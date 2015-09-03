@@ -99,6 +99,7 @@ Additionally this Guide links to other popular style guides.
 
 **[Composite Application Workflow (Multi-team approach)](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupWorkflow/workflow.md#composite-application-workflow-multi-team-approach)**
 
+**[Removing a Mashup appliation from your machine](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupWorkflow/workflow.md#removing-a-mashup-appliation-from-your-machine)**
 
 notes - don't read this :)
 - Create a new project

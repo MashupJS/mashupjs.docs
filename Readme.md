@@ -91,7 +91,7 @@ Additionally this Guide links to other popular style guides.
 *TODO: add style guides for WebApi, C#, Grunt/Gulp, etc.*
 
 ##Workflow
-**[Workflows Guide](https://raw.githubusercontent.com/MashupJS/mashupjs.docs/master/docs/mashupWorkflow/workflow.md)**
+**[Workflows Guide](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupWorkflow/workflow.md)**
 
 
 notes - don't read this :)

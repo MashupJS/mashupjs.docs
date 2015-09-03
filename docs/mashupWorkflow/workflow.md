@@ -71,15 +71,53 @@ I use "Long Path Eraser Free -  www.entersrl.net" to delete the node_modules dir
 
 Destroying/removing a Mashup application isn't' the only reason to delete the node_modules folder.  Once occassion you might wish to start another new application based on one you've already build.  I'f you simply copy your Mashup Core application to another directory and add your new application code, everything will work.  The problems is when you add your code to source control.  You have no way to distinguish between source control code and generated code.
 
-Creating a new project based on an existing one.
+###Creating a new project based on an existing one.
 
 1 Run the "Long Path Eraser Free" utility and remove the node_modules directory.
 2 Execute the feature of your source control systme that deletes all un-versioned code.
 3 Commit all your remaining code to source control.
 
-You're good to go.
+####You're good to go.
 
 ## Using Gulp/Bower/NPM
+
+The Mashup uses Gulp, Bower, and NPM for development and build processes.
+
+> When starting a project or retrieving it from source code you'll need
+> to go to the root of the solution, where the gulpfile.js exists.
+
+  
+
+From here you'll need to first install the required NPM modules.
+
+    npm install
+
+Then get all the client side code your application needs via Bower.
+
+    bower install
+
+Finally you're ready to guild the solution so it can execute in a browser.
+
+    gulp
+
+TIP: If you create configuration files that match your executing environment names, IE "Release", "Debug", "Prod", then you can add this parmeter to the gulp command.  This will configure the application to connect to the WebApi of the correct environment.
+
+This command builds a client application that points the the Production WebApi.
+
+    gulp --env-prod
+
+
+> To support notions promoted by DevOps, this might also be a good place
+> to deploy applications.  Maybe a command, like the following, would
+> build for a particular environment but also install to that
+> environment with a node copy or NPM sync command.
+> 
+>     gulp --env-prod --deploy
+
+Watch commands have been add to the Mahsup Gulp implementation.  After all the tasks are run you can continue developing.  Any files you change will be copies, concatenated, minified, trans-piled, and whatever else we can think of.
+
+> To break out of this simplye press CTRL + C and then answer the
+> question "Y" and press enter.
 
 
 
@@ -87,7 +125,7 @@ You're good to go.
 
 
 
-## Configure and Publish
+## Configure and Publish/Deployment
 
 
 

@@ -63,7 +63,7 @@ The Core is configured to pull from each application so when executing the `Mash
 
 
 
-## Using Gulp
+## Using Gulp/Bower/NPM
 
 
 

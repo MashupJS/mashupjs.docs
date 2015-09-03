@@ -93,6 +93,12 @@ Additionally this Guide links to other popular style guides.
 ##Workflow
 **[Workflows Guide](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupWorkflow/workflow.md)**
 
+###Creating a new Mashup implementation
+
+**[Single Application Workflow (Team approach)](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupWorkflow/workflow.md#single-application-workflow-team-approach)**
+
+**[Composite Application Workflow (Multi-team approach)](https://github.com/MashupJS/mashupjs.docs/blob/master/docs/mashupWorkflow/workflow.md#composite-application-workflow-multi-team-approach)**
+
 
 notes - don't read this :)
 - Create a new project
